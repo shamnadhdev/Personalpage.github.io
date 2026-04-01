@@ -12,7 +12,12 @@
   <body>
     <header>
       <h1 id="home">SHAMNADH.DEV</h1>
-      <nav>
+
+      <div class="menu-icon" onclick="toggleMenu()">
+    ☰
+  </div>
+
+      <nav id="nav">
         <ul>
           <li><a href="#home">Home</a></li>
           <li><a href="#about">About</a></li>
@@ -154,5 +159,10 @@
     <footer>
       <p>© 2026 Shamnadh.dev | Portfolio Website</p>
     </footer>
+      <script>
+function toggleMenu() {
+  document.getElementById("nav").classList.toggle("active");
+}
+</script>
   </body>
 </html>

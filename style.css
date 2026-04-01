@@ -1,4 +1,3 @@
-
 * {
   margin: 0;
   padding: 0;
@@ -19,7 +18,7 @@ body {
 }
 
 header {
-  background: #1b06df;
+  background: #160a85;
   border-bottom: 1px solid #132846;
   display: flex;
   position: relative;
@@ -198,7 +197,7 @@ footer {
   }
 
   header h1{
-    font-size: 30px;
+    font-size: 25px;
   }
 
   aside{
@@ -215,6 +214,9 @@ footer {
     display: block;
   }
 
+  #about img{
+    width: 200px;
+  }
   #nav.active {
     display: flex;
   }

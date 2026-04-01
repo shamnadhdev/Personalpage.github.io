@@ -1,0 +1,158 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Shamnadh | Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <header>
+      <h1 id="home">SHAMNADH.DEV</h1>
+      <nav>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <aside>
+        <h3>Table of Content</h3>
+        <a href="#home">Home</a><br />
+        <a href="#about">About</a><br />
+        <a href="#details">Details Table</a><br />
+        <a href="#qualification">Qualification</a><br />
+        <a href="#contact">Contact</a>
+      </aside>
+
+      <article>
+        <section id="about">
+          <div style="text-align: center; font-style: oblique;">
+            <img
+              src="img/IMG_8506[1].jpg"
+              alt="Shamnadh Photo"
+              style="align-items: center"
+              width="300px"
+            />
+            <h2 style="color: azure;">
+              MUHAMMED SHAMNADH E K
+              <h3>(20 Years Old)</h3>
+            </h2>
+          </div>
+          <h2>About</h2>
+          <p>
+            Hi, I’m Shamnadh. I’m a 20-year-old full-stack development student
+            from Kerala. I’m currently focusing on the MERN stack and building
+            my skills step by step in JavaScript, Node.js, and MongoDB. I’m
+            passionate about technology, content creation, and building digital
+            brands.
+          </p>
+        </section>
+
+        <section id="details">
+          <h2>Personal Details</h2>
+
+          <table border="1">
+            <tr>
+              <th>Field</th>
+              <th>Details</th>
+            </tr>
+
+            <tr>
+              <td>Name</td>
+              <td>Muhammed Shamnadh</td>
+            </tr>
+
+            <tr>
+              <td>Age</td>
+              <td>20</td>
+            </tr>
+
+            <tr>
+              <td>Location</td>
+              <td>Kerala, India</td>
+            </tr>
+
+            <tr>
+              <td>Education</td>
+              <td>Plus Two (Political Science)</td>
+            </tr>
+
+            <tr>
+              <td>Current Focus</td>
+              <td>MERN Stack Development</td>
+            </tr>
+          </table>
+        </section>
+
+        <section id="qualification">
+          <h2>My Qualification</h2>
+
+          <ol>
+            <li>Plus Two (Political Science)</li>
+            <li>Self-learning MERN Stack</li>
+            <li>HTML & CSS</li>
+            <li>JavaScript (Basics to Intermediate)</li>
+            <li>Node.js & MongoDB</li>
+            <li>Photo & Video Editing</li>
+          </ol>
+        </section>
+
+        <section id="contact">
+          <h2>Contact</h2>
+
+          <form>
+            <label for="name">Full Name</label><br />
+            <input type="text" id="name" required minlength="3" /><br /><br />
+
+            <label for="email">Email</label><br />
+            <input type="email" id="email" required /><br /><br />
+
+            <label for="password">Password</label><br />
+            <input
+              type="password"
+              id="password"
+              required
+              minlength="6"
+            /><br /><br />
+
+            <label for="age">Age</label><br />
+            <input
+              type="number"
+              id="age"
+              min="18"
+              max="60"
+              required
+            /><br /><br />
+
+            <label>Gender</label><br />
+            <input type="radio" name="gender" value="male" /> Male
+            <input type="radio" name="gender" value="female" /> Female
+            <br /><br />
+
+            <label for="education">Education</label><br />
+            <select id="education">
+              <option value="">Select</option>
+              <option value="+2">Plus Two</option>
+              <option value="degree">Degree</option>
+            </select>
+
+            <br /><br />
+
+            <input type="submit" value="Register" />
+          </form>
+        </section>
+      </article>
+    </main>
+
+    <footer>
+      <p>© 2026 Shamnadh.dev | Portfolio Website</p>
+    </footer>
+  </body>
+</html>
